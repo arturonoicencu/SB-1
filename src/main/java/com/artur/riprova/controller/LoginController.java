@@ -19,7 +19,6 @@ public class LoginController {
 		return "login";
 	}
 	
-	
 	@PostMapping("/login")
 	public String doLogin(ModelMap model, @RequestParam("email") String email, @RequestParam("password") String password) {
 		
